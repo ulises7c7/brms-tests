@@ -1,0 +1,22 @@
+//created on: 15/02/2016
+package com.sample
+
+//list any import classes here.
+
+
+import com.sample.model.Cliente;
+
+expander new-dsl.dsl
+
+
+//declare any global variables here
+
+
+
+
+rule "Edad del cliente"
+    when
+        Cliente menor de edad
+    then
+        Mostrar el mensaje: El cliente es menor de edad
+end
